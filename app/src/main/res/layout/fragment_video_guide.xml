@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.lsm.splashview.video.FullScreenVideoView
+        android:id="@+id/videoview_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"/>
+    <ImageView
+        android:id="@+id/go_next"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/go_next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="30dp"/>
+
+</RelativeLayout>
